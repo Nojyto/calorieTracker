@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport"      content="width=device-width, initial-scale=1.0"/>
+    <meta name="keywords"      content="">
+    <meta name="description"   content="">
+    <meta name="author"        content="Nojyto">
+    <meta http-equiv="refresh" content="900">
+    <link rel="icon" href="dependencies/logo.svg" type="image/svg+xml"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <script defer src="js/script.js"></script>
+    <title>Calorie Tracker</title>
+</head>
+<body>
+    <header>
+        <img src="dependencies/logo.svg" alt="logo"/>
+        <h1>Calorie Tracker</h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h2 id="cal"></h2>
+                <p>kCal</p>
+                <h3>left today</h3>
+            </div>
+            <input type="text" id="takeCalories" name="takeCalories" placeholder="Add calorie intake (kCal)" value="">
+        </section>
+
+        <section>
+            <div>
+                <h2 id="water"></h2>
+                <p>L</p>
+                <h3>left today</h3>
+            </div>
+            <input type="text" id="takeWater" name="takeWater" placeholder="Add water intake (ml)">
+        </section>
+
+        <section>
+            <h2>Settings</h2>
+            <br>
+            <a class="button" id="resetValues">Reset values</a>
+            <a class="button" id="changeValues">Change values</a>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright© 2022 All rights reserved by Nojyto.</p>
+    </footer>
+</body>
+</html>

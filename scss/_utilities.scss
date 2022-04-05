@@ -1,0 +1,46 @@
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.component{
+    box-shadow: 0 0 15px $fullblack;
+    background-color: $black;
+    color: $white;
+}
+
+.noselect{
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+}
+
+.textShadow {
+    color: $white;
+    text-shadow: 1px 0 0 $black,
+                0 -1px 0 $black,
+                 0 1px 0 $black,
+                -1px 0 0 $black;
+}
+
+a.button{
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid $white;
+    margin: 8px 12.81px;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color:$white;
+    text-align: center;
+    transition: all 0.2s;
+    &:hover{
+        color: $black;
+        background-color: $white;
+    }
+}
